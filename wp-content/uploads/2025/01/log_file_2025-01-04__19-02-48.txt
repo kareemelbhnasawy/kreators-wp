@@ -1,0 +1,20 @@
+
+---Upload files---
+Content file was not uploaded. Error: No file provided.
+
+---Upload files---
+Customizer file was not uploaded. Error: No file provided.
+
+---Upload files---
+Redux file was not uploaded. Error: No file provided.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 360
+Files info:
+Site URL = https://kreators.ae
+Data file = not defined!
+Widget file = /home/u955467695/domains/kreators.ae/public_html/wp-content/uploads/2025/01/theme-options.json
+Customizer file = not defined!
+Redux files:
+not defined!

@@ -1,0 +1,12 @@
+svg textPath { 
+  text-transform: uppercase;
+  background: #333;
+  font-weight: bold;
+}
+.mt-addons-circle-svg-text{
+	position: relative;
+}
+.mt-addons-circle-svg-text-static,
+.mt-addons-circle-svg-subtitle {
+    font-weight: 700;
+}

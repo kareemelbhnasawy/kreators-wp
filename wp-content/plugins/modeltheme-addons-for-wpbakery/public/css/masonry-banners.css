@@ -1,0 +1,71 @@
+.mt-addons-banner-holder {
+    margin: 60px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+.mt-addons-grid.col-md-6 {
+    position: absolute;
+    padding: 0;
+}
+.mt-addons-banner-offset{
+    width: 40%;
+}
+.mt-addons-masonry-banners {
+    position: relative;
+}
+.mt-addons-banner {
+    margin: 2.5px;
+    margin-bottom: 5px;
+}
+.mt-addons-banner:hover a:before, .mt-addons-banner:hover a:after {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
+.mt-addons-banner a:before {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+}
+.mt-addons-banner a:before, 
+.mt-addons-banner a:after {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity .35s,-webkit-transform .35s;
+    transition: opacity .35s,transform .35s;
+}
+.mt-addons-banner a:after {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-transform: scale(1,0);
+    transform: scale(1,0);
+}
+.mt-addons-banner img {
+    height: auto;
+    width: 100%;
+}
+.mt-addons-banner-title {
+    margin: 0;
+    text-transform: uppercase;
+}
+.mt-addons-banner-button.round{
+    border-radius: 30px;
+    border: 1px solid;
+    padding: 12px 25px;
+}
+.mt-addons-banner-button.boxed {
+    border-radius: 0;
+    border: 1px solid;
+    padding: 12px 25px
+}
+.mt-addons-banner-subtitle {
+    padding-bottom: 25px;
+    margin-top: 5px;
+}

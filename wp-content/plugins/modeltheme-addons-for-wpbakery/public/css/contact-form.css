@@ -1,0 +1,18 @@
+.contact-form {
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
+button {
+    border: unset;
+}
+.wpcf7-form input, .wpcf7-form textarea{
+    outline: none;
+}
+.mt-addons-contact-form .wpcf7-form label,
+.mt-addons-contact-form .wpcf7-form textarea{
+   width: 100%;
+}
+.mt-addons-contact-form .wpcf7-form input,
+.mt-addons-contact-form .wpcf7-form textarea{
+    display: list-item;
+}

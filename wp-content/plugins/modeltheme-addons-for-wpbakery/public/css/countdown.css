@@ -1,0 +1,66 @@
+.mt-addons-countdown > div{
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 0;
+}
+.mt-addons-countdown div div:first-child{
+    text-align: center;
+}
+.mt-addons-countdown div div:last-child{
+    opacity: 0.7;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+.mt-addons-countdown > div {
+    float: left;
+}
+.mt-addons-countdown > span {
+    float: left;
+    font-size: 60px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+.mt-addons-countdown {
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 40px 20px 20px 55px;
+}
+.mt-addons-countdown .days-digit {
+    font-size: 70px;
+    line-height: 50px !important;
+}
+.mt-addons-countdown .days-name {
+    font-size: 20px !important;
+    margin-top: 5px !important;
+    margin-bottom: 12px !important;
+}
+.mt-addons-countdown .hours-digit {
+    font-size: 70px;
+    line-height: 50px !important;
+}
+.mt-addons-countdown .hours-name {
+    font-size: 20px !important;
+    margin-top: 5px !important;
+    margin-bottom: 12px !important;
+}
+.mt-addons-countdown .minutes-digit {
+    font-size: 70px;
+    line-height: 50px !important;
+}
+.mt-addons-countdown .minutes-name {
+    font-size: 20px !important;
+    margin-top: 5px !important;
+    margin-bottom: 12px !important;
+}
+.mt-addons-countdown .seconds-digit {
+    font-size: 70px;
+    line-height: 50px !important;
+}
+.mt-addons-countdown .seconds-name {
+    font-size: 20px !important;
+    margin-top: 5px !important;
+    margin-bottom: 12px !important;
+}

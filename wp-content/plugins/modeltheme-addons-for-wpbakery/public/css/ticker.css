@@ -1,0 +1,30 @@
+.mt-addons-ticker {
+  width: auto; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.mt-addons-ticker ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  animation: tickerAnim 20s linear infinite;
+}
+
+.mt-addons-ticker li {
+  display: inline-flex;
+  font-size: 22px;
+  font-weight: 700;
+}
+.mt-addons-ticker .mt-addons-ticker-icon{
+  padding:0px 20px;
+}
+
+@keyframes tickerAnim {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

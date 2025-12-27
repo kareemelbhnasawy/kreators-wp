@@ -1,0 +1,36 @@
+.mt-addons-featured-product-name{
+  font-weight: bold;
+  font-size: 45px;
+}
+.mt-addons-featured-product-description{
+  margin-bottom: 30px;
+  margin-top: 35px;
+}
+.mt-addons-featured-product-button {
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 35px;
+}
+.mt-addons-featured-product {
+    display: flex;
+    align-items: center;
+    padding: 0px 60px;
+}
+.mt-addons-featured-product-price span.amount {
+    font-size: 24px;
+    margin-top: 30px;
+    display: block;
+}
+@media only screen and (max-width: 767px) {
+  .mt-addons-featured-product {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+  }
+}

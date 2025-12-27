@@ -1,0 +1,110 @@
+.mt-contact-card-list ul {
+    list-style: none !important;
+    padding: 0 !important;
+}
+.card-content {
+    display: flex !important;
+    align-items: center;
+    padding: 10px 15px 10px 15px;
+}
+.thumb-img {
+    padding: 5px 20px 0px 0px;
+}
+li.mt-contact-card-card-list-item {
+    line-height: 10px;
+}
+.mt-contact-card-card-list-item i {
+    margin-right: 10px !important;
+}
+.mt-contact-card-img-wrapper {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    transition: 350ms all;
+}
+.mt-contact-card-img-wrapper img {
+    border-radius: 5px;
+    width: 100%;
+    transition: 350ms all;
+}
+.mt-contact-card-img-wrapper:hover img {
+    -webkit-transform: scale(1.03) rotate(1deg);
+    opacity: 0.9;
+}
+.mt-contact-card-list-title {
+    margin: 10px 0 10px 0 !important;
+}
+.mt-contact-card-card-list-item a:hover {
+    color: #0a0a0a !important;
+}
+.mt-contact-card-list ul {
+    list-style: none !important;
+    padding: 0 !important;
+}
+.card-content {
+    display: flex !important;
+    align-items: center;
+    padding: 10px 15px 10px 15px;
+}
+.thumb-img {
+    padding: 5px 20px 0px 0px;
+}
+li.mt-contact-card-card-list-item {
+    line-height: 10px;
+}
+.mt-contact-card-card-list-item i {
+    margin-right: 10px !important;
+}
+.mt-contact-card-img-wrapper {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    transition: 350ms all;
+}
+.mt-contact-card-img-wrapper img {
+    border-radius: 5px;
+    width: 100%;
+    transition: 350ms all;
+}
+.mt-contact-card-img-wrapper:hover img {
+    -webkit-transform: scale(1.03) rotate(1deg);
+    opacity: 0.9;
+}
+.mt-contact-card-list-title {
+    margin: 10px 0 10px 0 !important;
+}
+.mt-contact-card-card-list-item a:hover {
+    color: #0a0a0a !important;
+}
+@media screen and (max-width: 764px) {
+    .mt-contact-card-img-wrapper img {
+        width: 100%;
+    }
+    .card-content {
+        padding: 10px 15px 0px 15px;
+    }
+    .mt-contact-card-list {
+        padding: 10px 20px;
+    }
+    .thumb-img {
+        padding: 5px 0px 10px 0px;
+    }
+    .mt-contact-card-list {
+        padding: 0 !important;
+    }
+    .mt-contact-card-img-wrapper img {
+        width: 100%;
+    }
+    .card-content {
+        padding: 10px 15px 0px 15px;
+    }
+    .mt-contact-card-list {
+        padding: 10px 20px;
+    }
+    .thumb-img {
+        padding: 5px 0px 10px 0px;
+    }
+    .mt-contact-card-list {
+        padding: 0 !important;
+    }
+}

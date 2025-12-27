@@ -1,0 +1,15 @@
+.mt-discount-container {
+    padding: 75px;
+}
+
+.discount-btn-zone {
+    display: flex;
+}
+
+.mt-discount-content div:last-child {
+    margin-bottom: 0;
+}
+
+.discount-btn {
+    transition: all 250ms ease-in;
+}

@@ -1,0 +1,144 @@
+.mt-addons-products-list .woocommerce ul.products li.product a img{
+    float: left;
+    width: 14%;
+    margin-right: 30px;
+}
+.mt-addons-products-list .woocommerce-title-metas .product-description {
+    display: block;
+    text-align: left;
+}
+.mt-addons-products-list .details-container > div.details-item {
+    text-align: left;
+}
+.mt-addons-products-list .woocommerce ul.products li.product .woocommerce-loop-product__title {
+    text-align: left;
+}
+.mt-addons-products-list .woocommerce ul.products li.product .price{
+    text-align: left;
+}
+.mt-addons-products-list .woocommerce ul.products li.product .archive-product-title {
+    text-align: left;
+}
+.mt-addons-products-list .overlay-components{
+    display: none;
+}
+.mt-addons-products-list .products-by-category.active {
+    padding: 0px 15px;
+}
+.mt-addons-products-list .details-container {
+    padding-left: 0px;
+    width: 80%;
+    display: inline-block;
+}
+.mt-addons-products-list .woocommerce a.button{
+    padding: 12px 15px !important;
+    margin: 0px 5px;
+    height: 38px;
+    bottom: 5px;
+    float: left;
+}
+.mt-addons-products-list .bottom-components-list {
+    display: none;
+}
+.mt-addons-products-list .woocommerce ul.products li.product .archive-product-title {
+    padding: 30px 0px 15px;
+    border-top: none;
+    width: 80%;
+    display: inline-block;
+}
+.mt-addons-products-list .woocommerce ul.products li.product .woocommerce-loop-product__title {
+    padding: 30px 0px 15px;
+    border-top: none;
+    width: 83%;
+    display: inline-block;
+}
+.mt-addons-products-list .woocommerce ul.products li.product a img:hover {
+    transform: none;
+    -ms-transform: none;
+    -webkit-transform: none;
+}
+.mt-addons-products-list .bottom-components-list {
+    display: block !important;
+    margin-top: -30px;
+}
+.mt-addons-products-list span.mt-addons-products-list-name {
+    text-transform: uppercase;
+}
+.mt-addons-products-list .woocommerce ul.products li.product .button[data-tooltip]:after,
+.mt-addons-products-list .woocommerce ul.products li.product .button[data-tooltip]:before {
+    display: none;
+}
+.mt-addons-products-list .woocommerce .bottom-components-list {
+    display: none !important;
+}
+.mt-addons-products-list .bottom-components-list {
+    position: inherit;
+    float: right;
+}
+.mt-addons-products-list .category.item a {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.3;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.mt_addons_categories_shortcode .category img {
+    width: 20px;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+.mt_addons_categories_shortcode  .category.active img {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+.mt_addons_categories_shortcode  .category:hover img {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+.mt-addons-products-list .products_by_category.active{
+    display: block;
+}
+.mt-addons-products-list .products_by_category {
+    display: none;
+    margin-top: 30px;
+}
+.mt-addons-products-list .woocommerce.columns-1 ul.products li.product {
+    margin: 0px !important;
+    float: initial;
+    width: 100%;
+}
+.mt-addons-products-list .woocommerce ul.products .products-wrapper {
+    background: #fff;
+    box-shadow: 0 0 25px rgb(0 0 0 / 10%);
+    overflow: hidden;
+    margin-bottom: 30px!important;
+}
+.mt-addons-products-list .thumbnail-and-details {
+    overflow: initial!important;
+}
+.mt-addons-products-list .woocommerce ul.products li.product .price {
+    clear: initial;
+}
+@media only screen and (max-width: 767px){ 
+    body .mt-addons-products-list .woocommerce ul.products li.product a img {
+        width: 100%;
+        margin: 0;
+    }
+    .mt-addons-products-list .woocommerce a.button{
+        float: unset;
+    }
+    .mt-addons-products-list .woocommerce ul.products li.product .woocommerce-loop-product__title {
+        text-align: center;
+    }
+    .mt-addons-products-list .woocommerce ul.products li.product .price {
+        text-align: center;
+    }
+    .mt-addons-products-list .thumbnail-and-details {
+        overflow: auto!important;
+    }
+}

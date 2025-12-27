@@ -1,0 +1,82 @@
+.mt-addons-buddypress-groups-item-title {
+    text-align: center;
+    padding-bottom: 18px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.mt-modeltema-groups .mt-addons-buddypress-groups-item-title a, .mt-modeltema-groups .mt-addons-buddypress-groups-button a {
+    transition: 350ms all;
+}
+.mt-addons-buddypress-groups-item {
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    -webkit-box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.mt-addons-buddypress-groups-vcard img {
+    width: 100%;
+    height: 150px;
+    display: block;
+    object-fit: cover;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.mt-addons-buddypress-groups-carusel {
+    overflow: initial!important;
+}
+span.mt-addons-buddypress-groups-activity,
+span.mt-addons-buddypress-groups-data-item.mt-addons-buddypress-groups-data-members {
+    float: right;
+    color: #2e3d55;
+}
+.mt-addons-buddypress-groups-vcard  a.mt-addons-buddypress-groups-item-img {
+    margin-top: -78px;
+    display: block;
+}
+.mt-addons-buddypress-groups-item-avatar{
+    width: 100px;
+    height: 95px;
+    display: block;
+    position: relative;
+    margin: 0 auto 20px;
+}
+.mt-addons-buddypress-groups-item-avatar a img{
+    border: 8px solid transparent;
+    background-color: rgba(255,255,255,.35);
+}
+.mt-addons-buddypress-groups-item-avatar a img.avatar {
+    border-radius: 100%;
+    width: 100px;
+    max-width: 100px;
+}
+.mt-addons-buddypress-groups-button {
+    text-align: center;
+    padding-top: 30px;
+}
+.mt-addons-buddypress-groups-button a{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+    background: #ed147d;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 50px;
+    text-align: center;
+}
+.mt-addons-buddypress-groups-separator{
+    border-bottom: 1px solid rgba(232, 232, 232, 1.1);
+    margin: 13px 0 13px 0px;
+}
+.mt-addons-buddypress-groups-activity,
+.mt-addons-buddypress-groups-count {
+    color: #a6a6a6;
+    font-size: 16px;
+}
+@media (max-width: 767px) {
+    .mt-addons-buddypress-groups-vcard {
+        margin-bottom: 20px
+    }
+}

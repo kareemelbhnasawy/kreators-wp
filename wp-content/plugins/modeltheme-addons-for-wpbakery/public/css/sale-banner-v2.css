@@ -1,0 +1,323 @@
+.masonry_banner.masonry-brick {
+    width: 45%;
+}
+.masonry_banners img {
+    height: auto;
+    width: 100%;
+}
+.masonry_banners.banners_column {
+    overflow: hidden;
+}
+.banners_column > .vc_col-md-6 {
+    padding: 0;
+}
+.masonry_banner {
+    margin: 2.5px;
+    margin-bottom: 5px;
+}
+.masonry_banner {
+    margin: 2.5px;
+    margin-bottom: 5px;
+}
+.domains .masonry_banner {
+    margin: 12.5px;
+    margin-bottom: 32px;
+}
+.sale_banner .sale_banner_holder .banner_holder .button-winona span {
+    color: #fff;
+}
+.sale_banner .sale_banner_holder::before,
+.sale_banner .sale_banner_holder::after {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+.sale_banner p.category_count{
+    text-align: left;
+}
+.sale_banner .sale_banner_holder::before {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+}
+.sale_banner .sale_banner_holder::after {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    /* -webkit-transform: scale(1,0); */
+    /* transform: scale(1,0); */
+}
+.sale_banner:hover .sale_banner_holder:before,
+.sale_banner:hover .sale_banner_holder:after{
+    /* opacity: 1; */
+    /* transform: scale(1); */
+    /* -webkit-transform: scale(1); */
+}
+.sale_banner_holder {
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: block;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.sale_banner .masonry_holder {
+    bottom: 55px;
+    top: auto;
+    left: 30px;
+    width: auto;
+    margin: 12px;
+}
+.sale_banner .masonry_holder span.read-more {
+    float: left;
+    font-weight: 600;
+}
+.sale_banner .masonry_holder .category_name {
+    font-size: 32px;
+    line-height: 1.1;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.sale_banner_holder{
+    border: 0 none;
+}
+.sale_banner_holder a {
+    border: 1px solid #FFF;
+    color: rgb(255, 255, 255);
+    float: left;
+    padding: 12px 25px;
+    font-weight: 600;
+    margin-left: 52px;
+}
+.vc-12 .sale_banner .masonry_holder .category_name {
+    font-size: 30px;
+}
+.banner_holder {
+    position: absolute;
+    top: 69%;
+    width: 100%;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+}
+.sale_banner_center .masonry_holder {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-60%, -99%);
+    font-size: 18px;
+}
+.sale_banner_center .masonry_holder .category_name {
+    font-family: BenchNine;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.sale_banner .sale_banner_holder.right .masonry_holder {
+    bottom: 95px;
+    top: auto;
+    right: 30px;
+    left: auto;
+    width: 35%;
+    margin: 12px;
+    text-align: left;
+}
+.sale_banner .sale_banner_holder.right span.read-more {
+    color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    line-height: 1;
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 2px;
+    font-weight: 500;
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    position: absolute;
+    z-index: 12;
+}
+.sale_banner .sale_banner_holder.right span.read-more:hover {
+    background: #fff !important;
+}
+.masonry_banner {
+    margin: 2.5px;
+    margin-bottom: 5px;
+}
+.masonry_banner {
+    margin: 2.5px;
+    margin-bottom: 5px;
+}
+.domains .masonry_banner {
+    margin: 12.5px;
+    margin-bottom: 32px;
+}
+.sale_banner .sale_banner_holder .banner_holder .button-winona span {
+    color: #fff;
+}
+.sale_banner .sale_banner_holder::before,
+.sale_banner .sale_banner_holder::after {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+.sale_banner p.category_count{
+    text-align: left;
+}
+.sale_banner .sale_banner_holder::before {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+}
+.sale_banner .sale_banner_holder::after {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    /* -webkit-transform: scale(1,0); */
+    /* transform: scale(1,0); */
+}
+.sale_banner:hover .sale_banner_holder:before,
+.sale_banner:hover .sale_banner_holder:after{
+    /* opacity: 1; */
+    /* transform: scale(1); */
+    /* -webkit-transform: scale(1); */
+}
+.sale_banner_holder {
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: block;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.sale_banner .masonry_holder {
+    bottom: 55px;
+    top: auto;
+    left: 30px;
+    width: auto;
+    margin: 12px;
+}
+.sale_banner .masonry_holder span.read-more {
+    float: left;
+    font-weight: 600;
+}
+.sale_banner .masonry_holder .category_name {
+    font-size: 32px;
+    line-height: 1.1;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.sale_banner_holder{
+    border: 0 none;
+}
+.sale_banner_holder a {
+    border: 1px solid #FFF;
+    color: rgb(255, 255, 255);
+    float: left;
+    padding: 12px 25px;
+    font-weight: 600;
+    margin-left: 52px;
+}
+.vc-12 .sale_banner .masonry_holder .category_name {
+    font-size: 30px;
+}
+.banner_holder {
+    position: absolute;
+    top: 69%;
+    width: 100%;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+}
+.sale_banner_center .masonry_holder {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-60%, -99%);
+    font-size: 18px;
+}
+.sale_banner_center .masonry_holder .category_name {
+    font-family: BenchNine;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.sale_banner .sale_banner_holder.right .masonry_holder {
+    bottom: 95px;
+    top: auto;
+    right: 30px;
+    left: auto;
+    width: 35%;
+    margin: 12px;
+    text-align: left;
+}
+.sale_banner .sale_banner_holder.right span.read-more {
+    color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    line-height: 1;
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 2px;
+    font-weight: 500;
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    position: absolute;
+    z-index: 12;
+}
+.sale_banner .sale_banner_holder.right span.read-more:hover {
+    background: #fff !important;
+}
+.custom_pages_links .masonry_holder .category_name {
+    font-size: 23px;
+    text-transform: capitalize;
+}
+.custom_pages_links .masonry_holder .category_name:hover{
+    opacity: .8;
+}
+.custom_pages_links .masonry_holder {
+    bottom: 0px;
+    top: auto;
+    left: 25px;
+    width: auto;
+    margin: 12px;
+}
+.categories .category {
+    display: inline-table;
+    margin-right: 30px;
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+}

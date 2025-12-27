@@ -1,0 +1,81 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+@media only screen and (max-width: 767px) {
+   body .mt-addons-card-wrapper {
+      overflow-x: hidden;
+    } 
+    body .mt-addons-items-card.card {
+        margin: 10vh 1vh;
+    }
+    .mt-addons-card-image img {
+        height: 222px;
+    }
+}
+.mt-addons-card-wrapper {
+  width:100vw;
+  height:100vh;
+  place-items:center;
+  overflow:scroll;
+}
+.mt-addons-button-card-holder {
+    padding-bottom: 20px;
+}
+.mt-addons-items-card.card {
+    background-color: white;
+    height: auto;
+    width: 90vw;
+    border-radius: 16px;
+    /*box-shadow: 0px 3px 15px 1px rgb(0 0 0 / 30%);*/
+    margin: 10vh 10vh;
+    position: sticky;
+    top: 10vh;
+    /*box-shadow: 0 0.2em 1em rgb(0 0 0 / 10%), 0 1em 2em rgb(0 0 0 / 10%);*/
+    background: rgb(255, 255, 255);
+    color: rgb(10, 5, 7);
+    border-radius: 1em;
+    overflow: hidden;
+    display: grid;
+    grid-template-areas: "text img";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: stretch;
+    outline: var(--outline-width) solid lime;
+}
+.mt-addons-flex-card.items-center{
+    grid-area: text;
+    width: 80%; 
+    place-self: center;
+    text-align: left; 
+    display: grid;
+    gap: 1em;
+    place-items: start;
+}
+/*Button Shapes*/
+.mt-addons-button-card-holder.btn-rounded .mt-addons-button-card {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.mt-addons-button-card-holder.btn-round .mt-addons-button-card {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+}
+.mt-addons-button-card-holder.btn-square .mt-addons-button-card {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+/*Button Sizes*/
+.mt-addons-button-card-holder.mt-addons-btn-sm .mt-addons-button-card {
+    padding: 5px 15px;
+}
+.mt-addons-button-card-holder.mt-addons-btn-medium .mt-addons-button-card{
+    padding: 10px 25px;
+}
+.mt-addons-button-card-holder.mt-addons-btn-lg .mt-addons-button-card {
+    padding: 15px 35px;
+}
+.mt-addons-button-card-holder.mt-addons-btn-extra-large .mt-addons-button-card {
+    padding: 18px 42px;
+}

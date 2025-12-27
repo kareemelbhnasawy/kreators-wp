@@ -1,0 +1,6 @@
+.mt-addons-text-highlighted {
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  transition: background-size .5s;
+}

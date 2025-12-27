@@ -1,0 +1,51 @@
+.mt-addons-buddypress-user-online,
+.mt-addons-buddypress-user-offline {
+    position: absolute;
+    bottom: 12px;
+    left: 80px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+}
+.mt-addons-buddypress-user-offline {
+    background-color: #999;
+}
+.mt-addons-buddypress-user-online {
+    background-color: #39c8df;
+}
+.mt-addons-buddypress-members-hover:before {
+    content: '+';
+    text-align: center;
+    display: block;
+    margin-top: -12px;
+}
+.mt-addons-buddypress-members-item-avatar a img.avatar {
+    width: 90px;
+    height: 90px;
+    max-width: 90px;
+    margin: 0;
+    border: 6px solid rgba(0,0,0,.1);
+    border-radius: 100%;
+}
+a.mt-addons-buddypress-members-avatar{
+    position: relative;
+}
+.mt-addons-buddypress-members-carusel a:hover .mt-addons-buddypress-members-hover  {
+    transform: scale(1);
+    opacity: 1;
+}
+.mt-addons-buddypress-members-hover{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 50% 0;
+    border-radius: 100%;
+    background: rgba(0,0,0,.4);
+    color: #fff;
+    font-size: 24px;
+    opacity: 0;
+    transition: all .4s ease-in-out;
+    transform: scale(0);
+}

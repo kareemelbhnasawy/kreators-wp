@@ -1,0 +1,61 @@
+.mt-addons-class-post-details {
+  box-shadow: 0 0 15px #e5e5e5;
+  -webkit-box-shadow: 0 0 15px #e5e5e5;
+  background: #F8F8F8;
+  padding: 45px;
+}
+.mt-addons-grid-class-single .mt-addons-class-expandable-overlay  {
+  width: 5px;
+  background: linear-gradient(230.57deg, #FF3366 -1.25%, #D53D8E 102.24%);
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 250ms ease-in-out 0ms;
+  -ms-transition: all 250ms ease-in-out 0ms;
+  -webkit-transition: all 250ms ease-in-out 0ms;
+}
+.mt-addons-grid-class-single:hover .mt-addons-class-expandable-overlay  {
+  width: 100%;
+}
+.mt-addons-grid-class-single .mt-addons-class-metas {
+  position: relative;
+}
+.mt-addons-grid-class-single .mt-addons-grid-btn-more{
+  opacity: 1;
+  transition: all 250ms ease-in-out 0ms;
+  -ms-transition: all 250ms ease-in-out 0ms;
+  -webkit-transition: all 250ms ease-in-out 0ms;
+}
+.mt-addons-grid-class-single  img{
+  filter: brightness(1);
+  opacity: 1;
+  max-height: 60px;
+  -webkit-filter: brightness(1);
+  transition: all 250ms ease-in-out 0ms;
+  -ms-transition: all 250ms ease-in-out 0ms;
+  -webkit-transition: all 250ms ease-in-out 0ms;
+}
+.mt-addons-grid-class-single:hover img{
+  filter: brightness(2);
+  -webkit-filter: brightness(2);
+  opacity: 0.6;
+}
+.mt-addons-grid-class-single:hover .mt-addons-grid-btn-more,
+.mt-addons-grid-class-single:hover .mt-addons-grid-class-subtitle,
+.mt-addons-grid-class-single:hover .mt-addons-grid-class-title {
+    color: #fff;
+}
+.mt-addons-grid-class-single .mt-addons-grid-class-title  {
+  color: #1E1E1E;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.mt-addons-grid-class-single .mt-addons-grid-btn-more {
+  color: #FF3366;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+}

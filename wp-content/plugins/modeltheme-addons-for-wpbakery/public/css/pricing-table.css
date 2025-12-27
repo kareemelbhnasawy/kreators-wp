@@ -1,0 +1,149 @@
+.mt-addons-pricing-table-section {
+    padding: 30px 35px;
+    border-top: 3px solid transparent;
+    transition: border-color 0.5s;
+
+}
+.mt-addons-pricing-table-title {
+    font-size: 16px;
+    margin: 0 0 20px;
+}
+.mt-addons-pricing-table-price span {
+    font-size: 16px;
+    vertical-align: super;
+}
+.mt-addons-pricing-table-price {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 25px 0 25px;
+    border-top: 3px solid rgba(139, 144, 157, 0.18);
+}
+.mt-addons-pricing-table-sub {
+    font-weight: bold;
+    padding: 0 0 10px;
+    border-bottom: 3px solid rgba(139, 144, 157, 0.18);
+}
+.mt-addons-pricing-table-feature {
+    font-size: 20px;
+    font-style: italic;
+    margin: 0;
+    padding: 20px 0 20px;
+    list-style: none;
+    text-align: right;
+    color: #8b909d;
+}
+.mt-addons-pricing-table-feature ul {
+    list-style-type: none;
+}
+.mt-addons-pricing-table-sub,
+.mt-addons-pricing-table-title{
+    text-align: left;
+}
+.mt-addons-pricing-table-button {
+    margin: 10px;
+}
+.mt-addons-pricing-table-button.btn-rounded{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.mt-addons-pricing-table-button.btn-round{
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+}
+.mt-addons-pricing-table-button.btn-medium {
+    padding: 10px 45px;
+}
+.mt-addons-pricing-table-button.btn-lg {
+    padding: 15px 55px;
+}
+.mt-addons-pricing-table-button-large {
+    padding: 18px 65px;
+}
+.mt-addons-pricing-table-button.btn-sm{
+    padding: 5px 15px;
+}
+.mt-addons-pricing-table-button.extra-large{
+    padding: 18px 75px;
+}
+
+/*/////////Pricing Table V2///////////*/
+.mt-addons-pricing-table-section-v2 {
+    color: #fff;
+    cursor: default;
+}
+.mt-addons-pricing-feature {
+    list-style-type: none;
+}
+.mt-addons-pricing-table-title-v2 {
+    border-radius: 0px;
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.mt-addons-pricing-table-price-v2 {
+    line-height: 60px;
+    padding: 50px 0 0 0;
+    font-weight: 700;
+}
+.mt-addons-pricing-table-sub-v2{
+    margin-right: 80px;
+}
+li.mt-addons-pricing-feature:last-child {
+    border: none!important;
+}
+li.mt-addons-pricing-feature{
+    margin-left:0px!important;
+}
+.mt-addons-pricing-table-feature-v2 ul {
+    padding: 15px !important;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: unset;
+    list-style-type: none;
+}
+.mt-addons-pricing-table-section-v2 .mt-addons-pricing-table-button {
+    margin-bottom: -25px!important;
+    position: relative;
+    margin: 0 50px;
+    z-index: 1;
+}
+.mt-addons-pricing-table-button-holder-v2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    flex: 0 1 360px;
+}
+.mt-addons-pricing-feature {
+    border-bottom: 1px solid rgba(103, 115, 221, 0.15);
+    margin: 0;
+    opacity: .9;
+    padding: 15px 0 !important;
+    font-weight: 400;
+    font-size: 15px;
+}
+.mt-addons-pricing-feature i {
+    float: right;
+    position: relative;
+    top: 3px;
+}
+.mt-addons-pricing-table-feature-v2 {
+    color: #3c424f;
+    padding: 35px 50px 0;
+}
+.mt-addons-pricing-table-feature-v2.nomargin{
+    padding: 0px;
+    margin: 40px 0 20px 0;
+    color: #3c424f;
+}
+body.mt-addons-pricing-table-feature-v2 .mt-addons-pricing-feature:last-child {
+    background: red;
+    border: none;
+}
+/*///////// End Pricing Table V2///////////*/

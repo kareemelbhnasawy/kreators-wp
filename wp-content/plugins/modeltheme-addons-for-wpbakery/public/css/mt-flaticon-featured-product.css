@@ -1,0 +1,74 @@
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-style: normal;
+}
+/* Shortcode : MT Courses Categories */
+.mt-addons-categories-content.mt_col-md-3 .mt-addons-single-category-wrapper {
+    width: 25%;
+    float: left;
+    list-style: none;
+}
+.mt-addons-categories-content.mt_col-md-5 .mt-addons-single-category-wrapper {
+    width: 20%;
+    float: left;
+    list-style: none;
+}
+.mt-addons-categories-content.mt_col-md-5 .mt-addons-single-category-wrapper:first-child {
+    padding-left: 15px;
+}
+.mt-addons-categories-content.mt_col-md-3 .mt-addons-single-category-wrapper:first-child,
+.mt-addons-categories-content.mt_col-md-3 .mt-addons-single-category-wrapper:nth-child(5),
+.mt-addons-categories-content.mt_col-md-3 .mt-addons-single-category-wrapper:nth-child(9){
+    padding-left: 15px;
+}
+.mt-addons-categories-content li.mt-addons-single-category {
+    background: #fff;
+    display: flex;
+    padding: 25px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    transition: all 250ms ease;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+}
+.mt-addons-categories-content li.mt-addons-single-category:hover {
+    background: #f7f7f7;
+    box-shadow: 0px 1px 20px 1px rgb(0 0 0 / 3%);
+    transform: scale(1.02);
+}
+.mt-addons-categories-content li.mt-addons-single-category span.mt-title {
+    font-size: 18px;
+    margin-left: 15px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0px 20px;
+    width: 75%;
+    float: right;
+    color: #222;
+}
+.mt-addons-categories-content li.mt-addons-single-category i {
+    font-weight: 500;
+    font-size: 50px;
+    vertical-align: -3px;
+    margin-top: 12px;
+    float: left;
+    width: 10%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.mt-addons-category-title {
+    font-size: 18px;
+    margin-left: 15px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0px 20px;
+    width: 75%;
+    float: right;
+    color: #222;
+}

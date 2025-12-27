@@ -1,0 +1,246 @@
+.mt-addons-featured_product_shortcode.simple .mt-addons-featured_product_name {
+
+    line-height: 25px;
+
+    margin-top: 25px;
+
+    text-align: center;
+
+}
+
+.mt-addons-featured_product_shortcode.simple .mt-addons-featured_product_details_holder {
+
+    padding-top: 0px;
+
+}
+
+.mt-addons-featured_product_shortcode.simple img {
+
+    float: right;
+
+    margin-bottom: 15px;
+
+}
+
+.mt-addons-featured_product_shortcode.simple .mt-addons-featured_product_description p {
+
+    font-weight: normal;
+
+    font-size: 15px;
+
+    text-align: center;
+
+    color: #777777;
+
+    line-height: normal;
+
+}
+
+.mt-addons-featured_product_shortcode.simple span.amount {
+
+    font-size: 18px;
+
+}
+
+.mt-addons-featured_product_shortcode.simple del bdi {
+
+    color: #999999;
+
+}
+
+.mt-addons-featured_product_shortcode.simple h3.mt-addons-featured_product_price {
+
+    margin: 10px 0px;
+
+    text-align: center;
+
+}
+
+.mt-addons-featured_product_shortcode .mt-addons-featured_product_name a {
+
+    font-weight: 600;
+
+    font-size: 15px;
+
+    color: #252525;
+
+}
+
+.mt-addons-featured_product_shortcode span.amount {
+
+    font-size: 22px;
+
+    font-weight: 600;
+
+}
+
+.mt-addons-featured_product_shortcode.simple .mt-addons-featured_product_description {
+
+    margin-top: 5px;
+
+    margin-bottom: 15px;
+
+}
+
+.mt-addons-featured_product_shortcode.simple .featured_product_categories {
+
+    margin-bottom: 5px;
+
+}
+
+.mt-addons-featured_product_shortcode.simple{
+
+    background-image: none !important;
+
+    padding: 30px;
+
+    border: 2px solid #fa6c47;
+
+    border-top-left-radius: 5px !important;
+
+    border-top-right-radius: 5px !important;
+
+}
+
+.mt-addons-featured_product_shortcode.simple .progress {
+
+    border-radius: 30px;
+
+    height: 10px;
+
+}
+
+.mt-addons-featured_product_shortcode.simple .featured_countdown .row div {
+
+    display: flex;
+
+}
+
+.mt-addons-featured_product_shortcode.simple .featured_countdown .row .days-digit,
+
+.mt-addons-featured_product_shortcode.simple .featured_countdown .row .hours-digit,
+
+.mt-addons-featured_product_shortcode.simple .featured_countdown .row .minutes-digit,
+
+.mt-addons-featured_product_shortcode.simple .featured_countdown .row .seconds-digit {
+
+    background: #fff;
+
+    padding: 15px 20px;
+
+    width: fit-content;
+
+    margin: 0px 10px auto;
+
+}
+
+.mt-addons-featured_product_shortcode.simple .featured_countdown .row .days-name,
+
+.mt-addons-featured_product_shortcode.simple .featured_countdown .row .hours-name,
+
+.mt-addons-featured_product_shortcode.simple .featured_countdown .row .minutes-name,
+
+.mt-addons-featured_product_shortcode.simple .featured_countdown .row .seconds-name {
+
+    text-align: center !important;
+
+    position: absolute;
+
+    display: contents;
+
+    font-size: 11px;
+
+    color: #a6a6a6 !important;
+
+}
+
+.mt-addons-featured_product_shortcode.simple .featured_countdown .row div.days,
+
+.mt-addons-featured_product_shortcode.simple .featured_countdown .row div.hours,
+
+.mt-addons-featured_product_shortcode.simple .featured_countdown .row div.minutes,
+
+.mt-addons-featured_product_shortcode.simple .featured_countdown .row div.seconds {
+
+    display: initial;
+
+    text-align: center !important;
+
+}
+
+.mt-addons-featured_product_shortcode.simple .featured_countdown .c_dot {
+
+    display: none;
+
+}
+
+.mt-addons-featured_product_shortcode.simple .featured_countdown {
+
+    margin-left: 5px;
+
+}
+
+.mt-addons-featured_product_shortcode.simple .featured_countdown .row div.seconds{
+
+    width: 75px;
+
+}
+
+.mt-addons-featured_product_shortcode.simple .mt-addons-featured_product_button{
+
+    margin: 10px 20px;
+
+    font-size: 18px;
+
+    border-radius: 20px 0px;
+
+}
+
+.mt-addons-featured_product_shortcode.simple .mt-addons-featured_product_title h2 {
+
+    font-size: 38px;
+
+    font-weight: 600;
+
+    text-align: center;
+
+    border-bottom: 1px solid #e6e6e6;
+
+    padding-bottom: 17px;
+
+}
+
+.mt-addons-featured_product_button {
+
+    background: #fa6c47;
+
+    padding: 15px;
+
+    text-align: center;
+
+    border: 2px solid #fa6c47;
+
+    border-top: none !important;
+
+    transition: all 250ms ease-in-out 0s;
+
+    -webkit-transition: all 250ms ease-in-out 0s;
+
+}
+
+.mt-addons-featured_product_button:hover{
+    background-color: #fff;
+}
+
+.mt-addons-featured_product_button:hover a{
+    color: #fa6c47;
+}
+
+.mt-addons-featured_product_button a {
+    color: #ffffff;
+
+    text-transform: uppercase;
+
+    font-weight: 600;
+
+}

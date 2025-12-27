@@ -1,0 +1,422 @@
+/**
+* 
+* 
+* Main color:   [Blue]:       #00aeef
+* Hover color:  [Dark-Blue]:  #0096d1
+* 
+* 
+**/
+.breadcrumb a::after {
+    content: "/";
+    content:"/";
+}
+.navbar-header .logo img {
+    max-width: 85px;
+}
+::selection{
+    color: #ffffff;
+    background: #1878F2;
+}
+::-moz-selection { /* Code for Firefox */
+    color: #ffffff;
+    background: #1878F2;
+}
+a,
+a:visited{
+    color: #1878F2;
+}
+a:focus,
+a:hover{
+    color: #1878F2;
+}
+/*------------------------------------------------------------------
+    COLOR
+------------------------------------------------------------------*/
+span.amount
+table.compare-list .remove td a .remove,
+.woocommerce form .form-row .required,
+.woocommerce .woocommerce-info::before,
+.woocommerce .woocommerce-message::before,
+.woocommerce div.product p.price, 
+.woocommerce div.product span.price,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+.widget_popular_recent_tabs .nav-tabs li.active a,
+.widget_product_categories .cat-item:hover,
+.widget_product_categories .cat-item a:hover,
+.widget_archive li:hover,
+.widget_archive li a:hover,
+.widget_categories .cat-item:hover,
+.widget_categories li a:hover,
+.woocommerce .star-rating span::before,
+.pricing-table.recomended .button.solid-button, 
+.pricing-table .table-content:hover .button.solid-button,
+.pricing-table.Recommended .button.solid-button, 
+.pricing-table.recommended .button.solid-button, 
+.pricing-table.recomended .button.solid-button, 
+.pricing-table .table-content:hover .button.solid-button,
+.testimonial-author,
+.testimonials-container blockquote::before,
+.testimonials-container blockquote::after,
+h1 span,
+h2 span,
+label.error,
+.woocommerce input.button:hover,
+.author-name,
+.comment_body .author_name,
+.prev-next-post a:hover,
+.prev-text,
+.next-text,
+.social ul li a:hover i,
+.wpcf7-form span.wpcf7-not-valid-tip,
+.text-dark .statistics .stats-head *,
+.wpb_button.btn-filled,
+.widget_meta a:hover,
+.logo span,
+a.shop_cart::after,
+.woocommerce ul.products li.product .archive-product-title a:hover,
+.shop_cart:hover,
+.widget_pages a:hover,
+.categories_shortcode .category.active, .categories_shortcode .category:hover,
+.widget_recent_entries_with_thumbnail li:hover a,
+.widget_recent_entries li a:hover,
+.wpb_button.btn-filled:hover,
+li.seller-name::before,
+li.store-address::before,
+li.store-name::before,
+.full-width-part .post-name a:hover,
+.full-width-part .post-category-comment-date a:hover, .article-details .post-author a:hover,
+.grid-view.col-md-12.list-view .more-link:hover,
+ .woocommerce button.button:hover,
+ .woocommerce button.button.alt:hover,
+ .woocommerce div.product form.buy-now.cart .button:hover span.amount,
+ .woocommerce a.button:hover,
+ .woocommerce ul.cart_list li:hover a, .woocommerce ul.product_list_widget li:hover a,
+ a.add-wsawl.sa-watchlist-action:hover, a.remove-wsawl.sa-watchlist-action:hover,
+.top-footer .menu-search .btn.btn-primary:hover i.fa,
+wpcf7-form .wpcf7-submit:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce a.button:hover,
+.form-submit input:hover,
+blockquote::before,
+.post-name i,
+.form-submit input:hover,
+.sidebar-content .widget_nav_menu li a:hover{
+    color: #fff;
+}
+.dokan-btn-theme a:hover, .dokan-btn-theme:hover, input[type="submit"].dokan-btn-danger:hover, input[type="submit"].dokan-btn-theme:hover,
+.woocommerce-MyAccount-navigation-link > a:hover,
+body .faimos_shortcode_blog .post-name a:hover,
+.masonry_banner .read-more:hover,
+.category-button a:hover,
+.wpcf7-form .wpcf7-submit:hover,
+.product_meta > span a:hover,
+.dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.active a,
+.dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li a:hover,
+#dropdown-user-profile ul li a:hover,
+.widget_faimos_social_icons a,
+.simple-sitemap-container ul a:hover,
+.dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li:hover, .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.dokan-common-links a:hover,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a, .woocommerce div.product .woocommerce-tabs ul.tabs li:hover a,
+ .mega_menu .cf-mega-menu li a:hover, .mega_menu .cf-mega-menu.sub-menu p a:hover,
+.woocommerce a.remove,
+.nav-previous a:hover, .nav-next a:hover{
+    color: #FFF !important;
+}
+.tagcloud > a:hover,
+.faimos-icon-search,
+.wpb_button::after,
+.rotate45,
+.latest-posts .post-date-day,
+.latest-posts h3, 
+.latest-tweets h3, 
+.latest-videos h3,
+.button.solid-button,
+.top-footer,
+.form-submit input,
+.page-template-template-blog .full-width-part .more-link, .full-width-part .more-link,
+button.vc_btn,
+.pricing-table.recomended .table-content, 
+.pricing-table .table-content:hover,
+.pricing-table.Recommended .table-content, 
+.pricing-table.recommended .table-content, 
+.pricing-table.recomended .table-content, 
+.pricing-table .table-content:hover,
+.block-triangle,
+.owl-theme .owl-controls .owl-page span,
+body .vc_btn.vc_btn-blue, 
+body a.vc_btn.vc_btn-blue, 
+body button.vc_btn.vc_btn-blue, 
+.woocommerce input.button,
+table.compare-list .add-to-cart td a,
+.woocommerce #respond input#submit.alt, 
+.woocommerce input.button.alt,
+.woocommerce a.remove:hover,
+.woocommerce nav.woocommerce-pagination ul li a:focus, 
+.widget_social_icons li a:hover, 
+#subscribe > button[type="submit"],
+.social-sharer > li:hover,
+.prev-next-post a:hover .rotate45,
+.masonry_banner.default-skin,
+.member-footer .social::before, 
+.member-footer .social::after,
+.subscribe > button[type="submit"],
+.woocommerce #respond input#submit.alt.disabled, 
+.woocommerce #respond input#submit.alt.disabled:hover, 
+.woocommerce #respond input#submit.alt:disabled, 
+.woocommerce #respond input#submit.alt:disabled:hover, 
+.woocommerce #respond input#submit.alt[disabled]:disabled, 
+.woocommerce #respond input#submit.alt[disabled]:disabled:hover, 
+.woocommerce a.button.alt.disabled, 
+.woocommerce a.button.alt.disabled:hover, 
+.woocommerce a.button.alt:disabled, 
+.woocommerce a.button.alt:disabled:hover, 
+.woocommerce a.button.alt[disabled]:disabled, 
+.woocommerce a.button.alt[disabled]:disabled:hover, 
+.woocommerce button.button.alt.disabled, 
+.woocommerce button.button.alt.disabled:hover, 
+.woocommerce button.button.alt:disabled, 
+.woocommerce button.button.alt:disabled:hover, 
+.woocommerce button.button.alt[disabled]:disabled, 
+.woocommerce button.button.alt[disabled]:disabled:hover, 
+.woocommerce input.button.alt.disabled, 
+.woocommerce input.button.alt.disabled:hover, 
+.woocommerce input.button.alt:disabled, 
+.woocommerce input.button.alt:disabled:hover, 
+.woocommerce input.button.alt[disabled]:disabled, 
+.woocommerce input.button.alt[disabled]:disabled:hover,
+table.compare-list .add-to-cart td a,
+.shop_cart,
+h3#reply-title::after,
+.newspaper-info,
+.categories_shortcode .owl-controls .owl-buttons i:hover,
+.widget-title:after,
+h2.heading-bottom:after,
+.wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header.ui-state-active,
+#primary .main-content ul li:not(.rotate45)::before,
+.bottom-components .component a:hover, .bottom-components .component a:hover, .bottom-components .component a:hover, .woocommerce-page .vc_col-md-3 .overlay-components .component a:hover,
+.woocommerce.single-product .wishlist-container .yith-wcwl-wishlistaddedbrowse.show a,
+.widget_address_social_icons .social-links a,
+.hover-components .component:hover,
+.navbar-default .navbar-toggle .icon-bar,
+nav,
+.dokan-dashboard .dokan-dashboard-content article.dashboard-content-area .dashboard-widget .widget-title,
+.woocommerce-MyAccount-navigation-link > a, .newsletter-footer input.submit:focus,
+a.add-wsawl.sa-watchlist-action, a.remove-wsawl.sa-watchlist-action,
+footer .footer-top .menu .menu-item a::before {
+    background: #232f3e;
+}
+.bottom-components .component a:hover, .bottom-components .component a:hover, .bottom-components .component a:hover,.woocommerce-page .vc_col-md-3 .overlay-components .component a:hover,
+.vc_col-md-4 .overlay-components .component a:hover, .no-sidebar .vc_col-md-3 .overlay-components .component a:hover,
+.overlay-components .component.add-to-cart a, .bottom-components .component.add-to-cart a,
+.woocommerce_categories2 .products .component .yith-wcwl-wishlistexistsbrowse.show a,
+body .tp-bullets.preview1 .bullet,
+body #mega_main_menu li.default_dropdown .mega_dropdown > li > .item_link:hover, 
+body #mega_main_menu li.widgets_dropdown .mega_dropdown > li > .item_link:hover, 
+body #mega_main_menu li.multicolumn_dropdown .mega_dropdown > li > .item_link:hover, 
+body #mega_main_menu li.grid_dropdown .mega_dropdown > li > .item_link:hover{
+    background: #F29202 !important;
+}
+.dokan-dashboard .dokan-dash-sidebar, .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu,
+input[type="submit"].dokan-btn-theme, a.dokan-btn-theme, .dokan-btn-theme,
+#cd-zoom-in, #cd-zoom-out{
+    background-color: #F29202 !important;
+}
+.sale_banner .sale_banner_holder.right span.read-more{
+    background-color: #FFF !important;
+}
+.woocommerce ul.products li.product .onsale, 
+.back-to-top,
+body .woocommerce ul.products li.product .onsale, 
+body .woocommerce ul.products li.product .onsale,
+.pagination .page-numbers.current,
+.pagination .page-numbers.current:hover,
+.nav-previous a, .nav-next a,
+.woocommerce.single-product div.product form.cart .button {
+    background-color:#F29202;
+}
+.comment-form input, 
+.comment-form textarea,
+.author-bio,
+blockquote,
+.widget_popular_recent_tabs .nav-tabs > li.active,
+body .left-border, 
+body .right-border,
+body .member-header,
+body .member-footer .social,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce .woocommerce-info, 
+.woocommerce .woocommerce-message,
+body .button[type="submit"],
+.navbar ul li ul.sub-menu,
+.wpb_content_element .wpb_tabs_nav li.ui-tabs-active,
+.header_mini_cart,
+.header_mini_cart.visible_cart,
+#contact-us .form-control:focus,
+.header_mini_cart .woocommerce .widget_shopping_cart .total, 
+.header_mini_cart .woocommerce.widget_shopping_cart .total,
+.sale_banner_holder:hover,
+.testimonial-img,
+.wpcf7-form input:focus, 
+.wpcf7-form textarea:focus {
+    border-color: #F29202;
+}
+.sidebar-content .widget-title::before, .dokan-widget-area .widget-title::before,
+input[type="submit"].dokan-btn-theme, a.dokan-btn-theme, .dokan-btn-theme,
+.nav-previous a, .nav-next a{
+    border-color: #F29202 !important;
+}
+.services2 .block-triangle:hover i {
+    background-color:#F29202;
+}
+#navbar .menu-item.black-friday-menu-link > a  {
+    background-color:#F29202 !important;
+}
+#navbar .menu-item.black-friday-menu-link > a:hover {
+    background:#ffffff !important;
+}
+.woocommerce #respond input#submit:hover, 
+.woocommerce a.button:hover, 
+.woocommerce button.button:hover, 
+.woocommerce input.button:hover,
+table.compare-list .add-to-cart td a:hover,
+.woocommerce #respond input#submit.alt:hover, 
+.woocommerce a.button.alt:hover, 
+.woocommerce button.button.alt:hover, 
+.woocommerce input.button.alt:hover,
+.faimos-search.faimos-search-open .faimos-icon-search, 
+.no-js .faimos-search .faimos-icon-search,
+.faimos-icon-search:hover,
+.latest-posts .post-date-month,
+.button.solid-button:hover,
+body .vc_btn.vc_btn-blue:hover, 
+body a.vc_btn.vc_btn-blue:hover, 
+body button.vc_btn.vc_btn-blue:hover,
+.subscribe > button[type="submit"]:hover,
+table.compare-list .add-to-cart td a:hover,
+.shop_cart:hover,
+.wpcf7-form .wpcf7-submit:hover,
+.widget_address_social_icons .social-links a:hover,
+.post-password-form input[type="submit"]:hover,
+.page-template-template-blog .full-width-part .more-link:hover,
+.form-submit input:hover,
+.full-width-part .more-link:hover,
+.modeltheme-modal #loginform input[type="submit"]:hover, 
+.modeltheme-modal p.btn-register-p a:hover,
+#signup-modal-content .woocommerce-form-register.register .button[type="submit"]:hover,
+.woocommerce_categories2 .bottom-components .component a:hover,.woocommerce_categories2 .bottom-components .component a:hover, woocommerce_categories2 .bottom-components .component a:hover  {
+    background: #000; /*Color: Main Dark */
+}
+.no-touch #cd-zoom-in:hover, .no-touch #cd-zoom-out:hover{
+    background-color: #ffffff; /*Color: Main Dark */
+}
+.fixed-sidebar-menu {
+    background-color: #487485;
+}
+#navbar .sub-menu,
+.navbar ul li ul.sub-menu {
+    background-color: #FFFFFF;
+}
+
+#navbar ul.sub-menu li a {
+    color: #484848;
+}
+
+#navbar ul.sub-menu li a:hover {
+    background-color: #FFFFFF;
+}
+
+#navbar ul.sub-menu li a:hover {
+    color: #1878F2;
+}
+
+body {
+    font-family: Barlow;
+}
+
+h1,
+h1 span {
+    font-family: Barlow;
+    line-height: 69px;
+    color: #242424;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: Barlow;
+    line-height: 49px;
+    color: #242424;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h3,
+.post-name {
+    font-family: Barlow;
+    line-height: 43px;
+    color: #242424;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+h4 {
+    font-family: Barlow;
+    line-height: 34px;
+    color: #242424;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h5 {
+    font-family: Barlow;
+    line-height: 28px;
+    color: #242424;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h6 {
+    font-family: Barlow;
+    line-height: 25px;
+    color: #242424;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+input,
+textarea {
+    font-family: Barlow;
+}
+
+input[type="submit"] {
+    font-family: Barlow;
+}
+
+.top-header {
+    background-color: #ffffff;
+}
+
+.navbar-default {
+    background-color: #fff;
+}
+
+.container.footer-top,
+.prefooter .container {
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+
+footer {
+    background-color: #ffffff;
+}
+
+footer .footer {
+    background-color: #00306e;
+}
+p,body {
+    font-family: Barlow;
+    line-height: 27px;
+    font-weight: 400;
+    color: #373737;
+    font-size: 18px;
+}

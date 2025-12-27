@@ -1,0 +1,26 @@
+
+---Upload files---
+Content file was not uploaded. Error: No file provided.
+
+---Upload files---
+Widget file was not uploaded. Error: No file provided.
+
+---Upload files---
+Redux file was not uploaded. Error: No file provided.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 360
+Files info:
+Site URL = https://kreators.ae
+Data file = not defined!
+Widget file = not defined!
+Customizer file = /home/u955467695/domains/kreators.ae/public_html/wp-content/uploads/2025/01/customize.dat
+Redux files:
+not defined!
+
+---Importing customizer settings---
+Error: The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme.
+
+---ocdi/after_import---
+
